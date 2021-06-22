@@ -1,0 +1,26 @@
+.mainDiv {
+  padding: 2rem;
+  color: #121212;
+}
+.title {
+  margin-top: 4rem;
+}
+.numStyle {
+  font-size: 24px;
+  color: #121212;
+  font-family: sans-serif;
+}
+.table {
+  display: table;
+  width: 90%;
+  max-width: 1024px;
+}
+.tableRow {
+  display: table-row;
+}
+.typeColumn,
+.headlineColumn {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #121212;
+}
