@@ -7,6 +7,7 @@ const Task2 = ({ dataWithPush, dataWithEditor }) => {
   return (
     <div>
       <h1 className={styles.title}>Task 2</h1>
+{/* Print count of objects with source "Push"*/}
       <p>
         No of Records with value – “Push”:
         <span className={styles.numStyle}>
@@ -27,6 +28,7 @@ const Task2 = ({ dataWithPush, dataWithEditor }) => {
             })
           : "Nothing To show...."}
       </div>
+{/* Print count of objects with source "Editor"*/}
       <p>
         No of Records with value – “Editor”:
         <span className={styles.numStyle}>
